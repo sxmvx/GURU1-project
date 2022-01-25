@@ -5,15 +5,28 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     public float speed = 5;
+    public float speedRun;
+    public float h, v;
+    Vector3 dir;
+
+    public int walkCount;
+    private int currentWalkCount;
 
     // Update is called once per frame
     void Update()
     {
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            speedRun = 10;
+        }
+        else
+            speedRun = 0;
 
-        Vector3 dir = new Vector3(h, v, 0);
+        h = Input.GetAxis("Horizontal");
+        v = Input.GetAxis("Vertical");
 
-        transform.position += dir * speed * Time.deltaTime;
+        dir = new Vector3(h, v, 0);
+
+        transform.position += dir * (speed + speedRun) * Time.deltaTime;
     }
 }
