@@ -27,7 +27,7 @@ public class Move : MonoBehaviour
             // 방향의 크기를 1로 하고 싶다.
             moveDirection.Normalize();
         }
-        // 그렇지 않으면 아래방향으로 정하고 싶다.
+        // 그렇지 않으면 왼쪽방향으로 정하고 싶다.
         else
         {
             moveDirection=Vector3.left;
