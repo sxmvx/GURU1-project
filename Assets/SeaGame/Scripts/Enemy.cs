@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
@@ -8,10 +9,12 @@ public class Enemy : MonoBehaviour
     public float speed = 5;
     // 방향을 전역변수로 만들어서 Start와 Update에서 사용
     Vector3 dir;
+    
+   
 
     void Start()
     {
-        
+       
         // 0부터 9(10-1) 까지 값중에 하나를 랜덤으로 가져와서
         int randValue = UnityEngine.Random.Range(0, 10);
         // 만약 3보다 작으면 플레이어방향
@@ -37,12 +40,15 @@ public class Enemy : MonoBehaviour
         // 2. 이동하고 싶다. 공식 P = P0 + vt
         transform.position += dir * speed * Time.deltaTime;
     }
+   
     // 충돌 시작
     private void OnCollisionEnter(Collision other)
     {
-        // 너죽고
-        Destroy(other.gameObject);
-        // 나죽자
-        Destroy(gameObject);
+       
+            // 너죽고
+            Destroy(other.gameObject);
+            // 나죽자
+            Destroy(gameObject);
+       
     }
 }
