@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class BackGround : MonoBehaviour
 {
-    
     [SerializeField] private Transform target;
     [SerializeField] private float scrollRange = 17.93f;
     [SerializeField] private float moveSpeed = 3.0f;

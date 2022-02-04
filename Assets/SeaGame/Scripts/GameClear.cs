@@ -38,7 +38,7 @@ public class GameClear : MonoBehaviour
             Obstacle.SetActive(false);
             BlackBackground.SetActive(true);
             NEXT.SetActive(true);
-            STOP.SetActive(true);
+            STOP.SetActive(false);
         }
     }
 }

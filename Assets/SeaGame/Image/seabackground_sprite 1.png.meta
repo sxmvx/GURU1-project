@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: a8a86745c44ca4545a35b47c45a2a717
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6515698701432169314
+    second: seabackground_sprite 1_0
+  - first:
+      213: -6022961799979199296
+    second: seabackground_sprite 1_1
+  - first:
+      213: -656505312059351136
+    second: seabackground_sprite 1_2
+  - first:
+      213: 8983460247908634378
+    second: seabackground_sprite 1_3
+  - first:
+      213: 3954504216498582487
+    second: seabackground_sprite 1_4
+  - first:
+      213: -4359453219307268807
+    second: seabackground_sprite 1_5
+  - first:
+      213: 585511697080575396
+    second: seabackground_sprite 1_6
+  - first:
+      213: -3500219006744375622
+    second: seabackground_sprite 1_7
+  - first:
+      213: -7783338209815867629
+    second: seabackground_sprite 1_8
+  - first:
+      213: 7736067210779161301
+    second: seabackground_sprite 1_9
+  - first:
+      213: 2327103083783919228
+    second: seabackground_sprite 1_10
+  - first:
+      213: 2828122313592109480
+    second: seabackground_sprite 1_11
+  - first:
+      213: 898590650175753689
+    second: seabackground_sprite 1_12
+  - first:
+      213: 8357358342667946814
+    second: seabackground_sprite 1_13
+  - first:
+      213: -1037165619572611712
+    second: seabackground_sprite 1_14
+  - first:
+      213: -9038923430363769762
+    second: seabackground_sprite 1_15
+  - first:
+      213: -2606980487556275033
+    second: seabackground_sprite 1_16
+  - first:
+      213: 3230457546978863597
+    second: seabackground_sprite 1_17
+  - first:
+      213: 2935734854376543292
+    second: seabackground_sprite 1_18
+  - first:
+      213: -5219245930571122473
+    second: seabackground_sprite 1_19
+  - first:
+      213: -7810922252666754507
+    second: seabackground_sprite 1_20
+  - first:
+      213: -4371364564284102159
+    second: seabackground_sprite 1_21
+  - first:
+      213: -3699508147725799494
+    second: seabackground_sprite 1_22
+  - first:
+      213: 1731417080554829228
+    second: seabackground_sprite 1_23
+  - first:
+      213: -7784275984573946837
+    second: seabackground_sprite 1_24
+  - first:
+      213: 5032629667931366094
+    second: seabackground_sprite 1_25
+  - first:
+      213: -9170189593836396280
+    second: seabackground_sprite 1_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: seabackground_sprite 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 43
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263a65282796c6a50800000000000000
+      internalID: 6515698701432169314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 67
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c41e7867242a6ca0800000000000000
+      internalID: -6022961799979199296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 273
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af9b81a5ef93e6f0800000000000000
+      internalID: -656505312059351136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_3
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 256
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fcf62cf79abac70800000000000000
+      internalID: 8983460247908634378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_4
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 144
+        width: 39
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3be2f02a831e630800000000000000
+      internalID: 3954504216498582487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 144
+        width: 49
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935d148f46c1083c0800000000000000
+      internalID: -4359453219307268807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_6
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 223
+        width: 60
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5e25c49c7202800800000000000000
+      internalID: 585511697080575396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_7
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 239
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe4eeabb59bc6fc0800000000000000
+      internalID: -3500219006744375622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_8
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 222
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f4335d2270cf390800000000000000
+      internalID: -7783338209815867629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 144
+        width: 31
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2f90904280c5b60800000000000000
+      internalID: 7736067210779161301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_10
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 194
+        width: 54
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7618a8dce78b4020800000000000000
+      internalID: 2327103083783919228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 205
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9730b92428f3720800000000000000
+      internalID: 2828122313592109480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 158
+        width: 66
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd86367f6f687c00800000000000000
+      internalID: 898590650175753689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_13
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 130
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bce5b222d4bf370800000000000000
+      internalID: 8357358342667946814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_14
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 126
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08560283d5f3b91f0800000000000000
+      internalID: -1037165619572611712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_15
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 29
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e545635c70b4f8280800000000000000
+      internalID: -9038923430363769762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 36
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a465d61f0522dbd0800000000000000
+      internalID: -2606980487556275033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 95
+        width: 50
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9a7a5f504e4dc20800000000000000
+      internalID: 3230457546978863597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_18
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 94
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34d8ddbb43ddb820800000000000000
+      internalID: 2935734854376543292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_19
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 33
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8b7e89a738197b0800000000000000
+      internalID: -5219245930571122473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_20
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 62
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53aaa9168970a9390800000000000000
+      internalID: -7810922252666754507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_21
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 62
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9ad1ad61bc553c0800000000000000
+      internalID: -4371364564284102159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_22
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfe323c0f4b8acc0800000000000000
+      internalID: -3699508147725799494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_23
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 32
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5b38c49aa370810800000000000000
+      internalID: 1731417080554829228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_24
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 43
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24add12c32b8f390800000000000000
+      internalID: -7784275984573946837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_25
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2242bd40e77d540800000000000000
+      internalID: 5032629667931366094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seabackground_sprite 1_26
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 3
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801e5607621fcb080800000000000000
+      internalID: -9170189593836396280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

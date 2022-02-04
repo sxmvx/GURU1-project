@@ -38,7 +38,7 @@ public class PlayerLife : MonoBehaviour
         //현재 생명을 damage만큼 감소
         currentLife -= damage;
         
-        //PlayerLifeIcon 비활성화
+        //현재 생명에 따라 PlayerLifeIcon 비활성화
         if(currentLife==2)
         { life1.gameObject.SetActive(false);}
         else if (currentLife == 1)
@@ -46,10 +46,12 @@ public class PlayerLife : MonoBehaviour
         //체력이 0이하 = 플레이어 사망
         else if (currentLife == 0)
         {life3.gameObject.SetActive(false);
+        //GameOver화면, 검은 배경, Nxet버튼 활성화 / Stop(restart)버튼 비활성화
          GameOver.gameObject.SetActive(true);
          BlackBackground.gameObject.SetActive(true);
          NEXT.gameObject.SetActive(true);
          STOP.gameObject.SetActive(false);
+         //게임 정지
          Time.timeScale = 0;
          pauseActive = true;}
 

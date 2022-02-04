@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3949505568527122132}
   - component: {fileID: 1800978691986449002}
   m_Layer: 0
-  m_Name: Obstacle
+  m_Name: Obstacle 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -9170189593836396280, guid: a8a86745c44ca4545a35b47c45a2a717, type: 3}
+  m_Sprite: {fileID: -4371364564284102159, guid: a8a86745c44ca4545a35b47c45a2a717, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -112,9 +112,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.014648835, y: 0}
+  m_Offset: {x: -0.033640027, y: -0.00747557}
   serializedVersion: 2
-  m_Radius: 0.12562664
+  m_Radius: 0.12225573
 --- !u!114 &3949505568527122132
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -18,7 +18,7 @@ public class ObstacleSpawner : MonoBehaviour
         while (true)
         {
             //x위치 스테이지 크기 범위 안에서 임의의 값 선택
-            float positionX = Random.Range(stageData.LimitMin.y, stageData.LimitMax.y);
+            float positionX = Random.Range(stageData.LimitMin.y, stageData.LimitMax.y-0.6f);
             //장애물 생성
             Instantiate(Obstacle, new Vector3(stageData.LimitMax.x + 1.0f, positionX, 0.0f), Quaternion.identity);
             //spawnTime만큼 대기
