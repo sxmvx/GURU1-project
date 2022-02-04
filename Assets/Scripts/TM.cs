@@ -59,7 +59,8 @@ public class TM : MonoBehaviour
 
     void Start()
     {
-        animator.SetBool("isPushed", false);
+        if(animator!=null)
+            animator.SetBool("isPushed", false);
     }
 
     public void IsPushed()

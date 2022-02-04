@@ -343,8 +343,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 862828937}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+      - m_Target: {fileID: 862828942}
+        m_TargetAssemblyTypeName: ChangeScen_DL, Assembly-CSharp
         m_MethodName: ChangeSceneDialogue1
         m_Mode: 1
         m_Arguments:
@@ -1262,6 +1262,7 @@ GameObject:
   - component: {fileID: 862828939}
   - component: {fileID: 862828938}
   - component: {fileID: 862828937}
+  - component: {fileID: 862828942}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1362,6 +1363,18 @@ RectTransform:
   m_AnchoredPosition: {x: -1.097, y: 1860.0007}
   m_SizeDelta: {x: 2865.9282, y: 4741.525}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &862828942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862828936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f743a8c35d101884d9a2cb35627ac2d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &869270932
 GameObject:
   m_ObjectHideFlags: 0
@@ -1555,7 +1568,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ef909bcf5b72bb4ea41be23e60368c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 594956669}
   gState: 0
   gameLabel: {fileID: 1053784428}
   gamePanel: {fileID: 984495262}

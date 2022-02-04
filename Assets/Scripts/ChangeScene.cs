@@ -39,9 +39,4 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("Maze");
     }
-
-    public void ChangeSceneDialogue1()
-    {
-        SceneManager.LoadScene("Dialogue1");
-    }
 }
