@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
-    public void ChangeSceneStart()
+    public void ChangeSceneSeaPalace()
     {
-        SceneManager.LoadScene("Start");
+        SceneManager.LoadScene("SeaPalace");
     }
 
     public void ChangeSceneLoad()
@@ -23,5 +23,25 @@ public class ChangeScene : MonoBehaviour
     public void ChangeSceneMain()
     {
         SceneManager.LoadScene("Main");
+    }
+
+    public void ChangeSceneLand()
+    {
+        SceneManager.LoadScene("Land");
+    }
+
+    public void ChangeSceneSeaGame()
+    {
+        SceneManager.LoadScene("SeaGame");
+    }
+
+    public void ChangeSceneMaze()
+    {
+        SceneManager.LoadScene("Maze");
+    }
+
+    public void ChangeSceneDialogue1()
+    {
+        SceneManager.LoadScene("Dialogue1");
     }
 }
