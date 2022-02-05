@@ -230,6 +230,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1463605835}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: EndingScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2201689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3065,6 +3077,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1463605835}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: EndingScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1257497185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3402,6 +3426,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77f30355d4329af46bb011d20bbbfca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loyalty: 5
+  freedom: 5
+  rabbit: 5
+  greed: 5
   Button1: {fileID: 1192107221}
   Button2: {fileID: 2201686}
   Button3: {fileID: 2023793996}
@@ -4239,6 +4267,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1463605833}
         m_TargetAssemblyTypeName: OptionData, Assembly-CSharp
         m_MethodName: activeFalseButton3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1463605835}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: EndingScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

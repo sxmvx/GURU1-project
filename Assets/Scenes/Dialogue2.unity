@@ -558,7 +558,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1570382465}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: ChangeSceneMaze
+        m_MethodName: ChangeSceneFamEnding
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1232,6 +1232,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1570382468}
+        m_TargetAssemblyTypeName: OptionData, Assembly-CSharp
+        m_MethodName: downLoyalty
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1570382468}
+        m_TargetAssemblyTypeName: OptionData, Assembly-CSharp
+        m_MethodName: upFreedom
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1155626810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1746,6 +1770,7 @@ GameObject:
   - component: {fileID: 1570382466}
   - component: {fileID: 1570382465}
   - component: {fileID: 1570382467}
+  - component: {fileID: 1570382468}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -1791,6 +1816,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f743a8c35d101884d9a2cb35627ac2d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1570382468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570382464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f30355d4329af46bb011d20bbbfca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loyalty: 5
+  freedom: 5
+  rabbit: 5
+  greed: 5
+  Button1: {fileID: 0}
+  Button2: {fileID: 0}
+  Button3: {fileID: 0}
+  Button4: {fileID: 0}
+  Button5: {fileID: 0}
+  Button6: {fileID: 0}
 --- !u!1 &1587652648
 GameObject:
   m_ObjectHideFlags: 0
@@ -2188,7 +2235,7 @@ MonoBehaviour:
   dialogueBox: {fileID: 1371875071}
   Button1: {fileID: 1155626807}
   Button2: {fileID: 1967325327}
-  Button3: {fileID: 1587652648}
+  Button3: {fileID: 704706087}
   Button4: {fileID: 0}
   image1: {fileID: 0}
   image2: {fileID: 0}
@@ -2370,6 +2417,18 @@ MonoBehaviour:
       - m_Target: {fileID: 872448002}
         m_TargetAssemblyTypeName: TM, Assembly-CSharp
         m_MethodName: ShowDialogue_TM
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1570382468}
+        m_TargetAssemblyTypeName: OptionData, Assembly-CSharp
+        m_MethodName: upLoyalty
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

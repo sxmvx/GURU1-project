@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class OptionData : MonoBehaviour
 {
-    private int loyalty=5;
-    private int freedom=5;
-    private int rabbit=5;
-    private int greed=5;
+    public int loyalty=5;
+    public int freedom=5;
+    public int rabbit=5;
+    public int greed=5;
     public GameObject Button1, Button2, Button3, Button4, Button5, Button6;
 
     public void upLoyalty()
@@ -37,6 +37,12 @@ public class OptionData : MonoBehaviour
     {
         loyalty--;
         Debug.Log(loyalty);
+    }
+
+    public void downRabbit()
+    {
+        rabbit--;
+        Debug.Log(rabbit);
     }
 
     public void activeFalseButton1()
