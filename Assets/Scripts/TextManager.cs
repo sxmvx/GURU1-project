@@ -18,7 +18,11 @@ public class TextManager : MonoBehaviour
     //SerializeField : inspector창에서 직접 접근할 수 있도록 하는 변수임.
     [SerializeField] private SpriteRenderer sprite_StandingCG; //캐릭터 이미지(YK)를 제어하기 위한 변수
     public GameObject dialogueBox; //대사창 이미지(crop)를 제어하기 위한 변수
+<<<<<<< Updated upstream
     public GameObject Button1, Button2;
+=======
+    public GameObject Button1, Button2; //대화 스크립트 후 선택지 버튼 제어를 위한 변수
+>>>>>>> Stashed changes
     [SerializeField] private Text txt_Dialogue; // 텍스트를 제어하기 위한 변수
 
     private bool isDialogue = false; //대화가 진행중인지 알려줄 변수
@@ -65,6 +69,7 @@ public class TextManager : MonoBehaviour
             {
                 //대화의 끝을 알아야함.
                 if (count < dialogue.Length) NextDialogue(); //다음 대사가 진행됨
+<<<<<<< Updated upstream
                 else
                 {
                     ONOFF(false);
@@ -75,6 +80,15 @@ public class TextManager : MonoBehaviour
                     }//대사가 끝남
                 }
 
+=======
+                else ONOFF(false); //대사가 끝남
+                
+                if(Button1!=null && Button2!=null)
+                {
+                    Button1.gameObject.SetActive(true);
+                    Button2.gameObject.SetActive(true);
+                }
+>>>>>>> Stashed changes
             }
         }
     }
