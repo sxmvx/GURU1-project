@@ -24,4 +24,9 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("Main");
     }
-}
+
+    public void ChangeSceneSeaGame()
+     {
+        SceneManager.LoadScene("SeaGame");
+     }
+ }

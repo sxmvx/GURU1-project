@@ -17,8 +17,9 @@ public class PlayerLife : MonoBehaviour
     [SerializeField] GameObject GameOver;
     [SerializeField] GameObject NEXT;
     [SerializeField] GameObject STOP;
+    
 
-    bool pauseActive = false;
+    
 
     void Start()
     {
@@ -53,7 +54,7 @@ public class PlayerLife : MonoBehaviour
          STOP.gameObject.SetActive(false);
          //게임 정지
          Time.timeScale = 0;
-         pauseActive = true;}
+        }
 
         StopCoroutine("HitColorAnimation");
         StartCoroutine("HitColorAnimation");
