@@ -10,15 +10,12 @@ public class ChangeScene : MonoBehaviour
 
     void Start()
     {
-<<<<<<< Updated upstream
         optiondata = GameObject.Find("GameManager").GetComponent<OptionData>();
         dl = GameObject.Find("GameManager").GetComponent<ChangeScen_DL>();
     }
 
     public void ChangeSceneSeaPalace()
     {
-=======
->>>>>>> Stashed changes
         SceneManager.LoadScene("SeaPalace");
     }
 
@@ -37,7 +34,6 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene("Main");
     }
 
-<<<<<<< Updated upstream
     public void ChangeSceneLand()
     {
         SceneManager.LoadScene("Land");
@@ -46,11 +42,6 @@ public class ChangeScene : MonoBehaviour
     public void ChangeSceneLand2()
     {
         SceneManager.LoadScene("Land2");
-=======
-    public void ChangeSceneDialogue1()
-    {
-        SceneManager.LoadScene("ExDialogue");
->>>>>>> Stashed changes
     }
 
     public void ChangeSceneSeaGame()
@@ -58,7 +49,6 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene("SeaGame");
     }
 
-<<<<<<< Updated upstream
     public void ChangeSceneMaze()
     {
         SceneManager.LoadScene("Maze");
@@ -105,10 +95,4 @@ public class ChangeScene : MonoBehaviour
         else if (optiondata.greed >= 8)
             ChangeSceneGreedyEnding();
     }
-=======
-    public void ChangeSceneMazeGame()
-    {
-        SceneManager.LoadScene("Maze");
-    }
->>>>>>> Stashed changes
 }

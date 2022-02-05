@@ -136,11 +136,8 @@ GameObject:
   - component: {fileID: 1762768}
   - component: {fileID: 1762770}
   - component: {fileID: 1762769}
-<<<<<<< Updated upstream
   - component: {fileID: 1762771}
   - component: {fileID: 1762772}
-=======
->>>>>>> Stashed changes
   - component: {fileID: 1762765}
   m_Layer: 0
   m_Name: Player
@@ -158,19 +155,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1762764}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: c612d8a323f52be41ab310214f383773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-=======
-  m_Script: {fileID: 11500000, guid: 58e0f28b0df31d141a34065f8eceedcd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.02
-  speedRun: 0.02
-  walkCount: 2
->>>>>>> Stashed changes
 --- !u!212 &1762766
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -5,15 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-<<<<<<< Updated upstream
   - enabled: 1
     path: Assets/Scenes/Land.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-=======
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
->>>>>>> Stashed changes
   - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 9ef2d97112f51fe498cb9adacf50cbcd
@@ -22,7 +16,6 @@ EditorBuildSettings:
     guid: 6112b0d2eb3202048b14897130846628
   - enabled: 1
     path: Assets/Scenes/SeaPalace.unity
-<<<<<<< Updated upstream
     guid: db243e0a9c6115244b30b204ec13279b
   - enabled: 1
     path: "Assets/Scenes/\uD0D0\uC695\uC5D4\uB529.unity"
@@ -72,13 +65,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DeepSea.unity
     guid: bbfe01f30229cf14e991edaccf97ee41
-=======
-    guid: b39fd26ef04c24b49ab04285e0e9c01f
-  - enabled: 1
-    path: Assets/Scenes/Land.unity
-    guid: 87f3d32446f7ee04cb605e26fe61bddb
-  - enabled: 1
-    path: Assets/Scenes/ExDialogue.unity
-    guid: cd6bdcc58617aa847b325d4f10a2b586
->>>>>>> Stashed changes
   m_configObjects: {}
