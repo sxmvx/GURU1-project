@@ -1064,10 +1064,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1463605832}
-  - component: {fileID: 1463605831}
   - component: {fileID: 1463605833}
   - component: {fileID: 1463605835}
   - component: {fileID: 1463605834}
+  - component: {fileID: 1463605831}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1084,7 +1084,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1463605830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59bc034b16dc7764fa70e7c90e3c180c, type: 3}
+  m_Script: {fileID: 11500000, guid: fb55d1494c55b9f40b5c46d9df431c03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gState: 0
