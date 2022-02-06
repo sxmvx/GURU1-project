@@ -5,13 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Start.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 9ef2d97112f51fe498cb9adacf50cbcd
   - enabled: 1
     path: Assets/Scenes/SaveLoad.unity
     guid: 6112b0d2eb3202048b14897130846628
+  - enabled: 1
+    path: Assets/Scenes/SeaGame.unity
+    guid: e1eacaa5dca1cc642a84ad8e7509d1ff
   m_configObjects: {}
