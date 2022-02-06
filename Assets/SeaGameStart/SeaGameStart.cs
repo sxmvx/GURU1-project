@@ -14,15 +14,9 @@ public class SeaGameStart : MonoBehaviour
     [SerializeField] GameObject SeaGameRule2;
     [SerializeField] GameObject Next;
     [SerializeField] GameObject Return;
-    [SerializeField] GameObject BlackBackground;
 
     void Start()
     {
-        //게임 첫화면 정지
-        Time.timeScale = 0;
-        pauseActive = true;
-        
-        BlackBackground.gameObject.SetActive(true);
 
         //게임방법창, Next버튼, 이전으로 버튼, start2버튼 비활성화
         SeaGameRule.gameObject.SetActive(false);
@@ -35,7 +29,9 @@ public class SeaGameStart : MonoBehaviour
 
     public void OnClickStart1()
     {
-        
+        UnderTheSea.gameObject.SetActive(false);
+        Start1.gameObject.SetActive(false);
+        SeaGameRuleBTN.gameObject.SetActive(false);
     }
 
     public void OnClickRule()
