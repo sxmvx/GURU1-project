@@ -18,13 +18,13 @@ public class TextManager : MonoBehaviour
     //SerializeField : inspector창에서 직접 접근할 수 있도록 하는 변수임.
     [SerializeField] private SpriteRenderer sprite_StandingCG; //캐릭터 이미지(YK)를 제어하기 위한 변수
     public GameObject dialogueBox; //대사창 이미지(crop)를 제어하기 위한 변수
+    public GameObject Button1, Button2;
     [SerializeField] private Text txt_Dialogue; // 텍스트를 제어하기 위한 변수
 
     private bool isDialogue = false; //대화가 진행중인지 알려줄 변수
     private int count = 0; //대사가 얼마나 진행됐는지 알려줄 변수
 
     [SerializeField] private Dialogue[] dialogue;
-
 
     public void ShowDialogue()
     {
@@ -50,6 +50,10 @@ public class TextManager : MonoBehaviour
 
     }
 
+    void Start()
+    {
+        ShowDialogue();
+    }
 
     // Update is called once per frame
     void Update()
@@ -61,10 +65,17 @@ public class TextManager : MonoBehaviour
             {
                 //대화의 끝을 알아야함.
                 if (count < dialogue.Length) NextDialogue(); //다음 대사가 진행됨
-                else ONOFF(false); //대사가 끝남
+                else
+                {
+                    ONOFF(false);
+                    if (Button1 != null && Button2 != null)
+                    {
+                        Button1.gameObject.SetActive(true);
+                        Button2.gameObject.SetActive(true);
+                    }//대사가 끝남
+                }
 
             }
         }
-
     }
 }

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     // 싱글톤 변수
-    public static GameManager gm;
+    public static GameManager gm;    
 
     private void Awake()
     {
@@ -28,8 +28,9 @@ public class GameManager : MonoBehaviour
 
     // 게임 상태 UI 오브젝트 변수
     public GameObject gameLabel;
+    public GameObject gamePanel;
 
-    // 게임 상태 UI 텍스트 컴포넌트 변수
+    // 게임 상태 UI 텍컴포넌트 변수
     Text gameText;
 
     // PlayerMove 클래스 변수
@@ -43,8 +44,11 @@ public class GameManager : MonoBehaviour
         // 게임 상태 UI 오브젝트에서 Text 컴포넌트를 가져온다.
         gameText = gameLabel.GetComponent<Text>();
 
+        gameLabel.SetActive(true);
+        gamePanel.SetActive(true);
+
         // 상태 텍스트의 내용을 ‘Ready...’로 한다.
-        gameText.text = "이야기 설명 시작";
+        gameText.text = "제 1장";
 
         // 게임 준비 -> 게임 중 상태로 전환하기
         StartCoroutine(ReadyToMove());
@@ -58,11 +62,12 @@ public class GameManager : MonoBehaviour
         // 2초간 대기한다.
         yield return new WaitForSeconds(2f);
         // 상태 텍스트의 내용을 ‘Go!’로 한다.
-        gameText.text = "사건의 진상을 파헤치세요!";
+        gameText.text = "용궁에서 일어난 일";
         // 3초간 대기한다.
         yield return new WaitForSeconds(3f);
         // 상태 텍스트를 비활성화한다.
         gameLabel.SetActive(false);
+        gamePanel.SetActive(false);
         // 상태를 ‘게임중’ 상태로 변경한다.
         gState = GameState.Run;
     }
