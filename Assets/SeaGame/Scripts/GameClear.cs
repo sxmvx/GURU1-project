@@ -13,6 +13,7 @@ public class GameClear : MonoBehaviour
     [SerializeField] GameObject BlackBackground;
     [SerializeField] GameObject NEXT;
     [SerializeField] GameObject STOP;
+    [SerializeField] GameObject Restart;
     Image TimeBar;
     
 
@@ -38,7 +39,8 @@ public class GameClear : MonoBehaviour
             Obstacle.SetActive(false);
             BlackBackground.SetActive(true);
             NEXT.SetActive(true);
-            STOP.SetActive(true);
+            STOP.SetActive(false);
+            Restart.SetActive(false);
         }
     }
 }

@@ -6,7 +6,8 @@ using UnityEngine.UI;
 
 public class PauseControll : MonoBehaviour
 {
-    [SerializeField] Text startPauseText;
+    [SerializeField] GameObject Stop;
+    [SerializeField] GameObject Restart;
     bool pauseActive = false;
 
     public void pauseBtn()
@@ -15,12 +16,16 @@ public class PauseControll : MonoBehaviour
         {
             Time.timeScale = 1;
             pauseActive = false;
+            Stop.gameObject.SetActive(true);
+
         }
         else
         {
             Time.timeScale = 0;
             pauseActive = true;
+            Restart.gameObject.SetActive(true);
+            Stop.gameObject.SetActive(false);
         }
-        startPauseText.text = pauseActive ? "START" : "PAUSE";
+        
     }
 }
