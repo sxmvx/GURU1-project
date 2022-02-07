@@ -17,9 +17,10 @@ public class PlayerLife : MonoBehaviour
     [SerializeField] GameObject GameOver;
     [SerializeField] GameObject NEXT;
     [SerializeField] GameObject STOP;
-    
+    [SerializeField] GameObject Restart;
 
-    
+
+
 
     void Start()
     {
@@ -51,6 +52,7 @@ public class PlayerLife : MonoBehaviour
          BlackBackground.gameObject.SetActive(true);
          NEXT.gameObject.SetActive(true);
          STOP.gameObject.SetActive(false);
+         Restart.SetActive(false);
          Time.timeScale = 0;
         }
 
